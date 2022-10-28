@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "AnaQuispe_port.web": {
+    "FRONTEND_AnaQuispe": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -23,9 +23,12 @@
               "src/assets"
             ],
             "styles": [
+              "FRONTEND_AnaQuispe/node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "FRONTEND_AnaQuispe/node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
