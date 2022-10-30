@@ -14,7 +14,8 @@ import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { SobremiComponent } from './components/sobremi/sobremi.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
-
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { HysComponent } from './components/hys/hys.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,11 +29,13 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
     HomeComponent,
     LoginComponent,
     SobremiComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+    HysComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
