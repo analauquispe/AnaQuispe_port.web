@@ -12,4 +12,5 @@
 .img-proyecto{
     box-shadow: 10px 10px 30px #5E17EB;
     box-shadow: ejeX ejeY difumasion color;
+    border-radius: 15%;
 }

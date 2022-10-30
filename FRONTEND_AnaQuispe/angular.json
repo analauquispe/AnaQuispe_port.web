@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "FRONTEND_AnaQuispe": {
+    "AnaQuispe-portfolio": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ana-quispe-port.web",
+            "outputPath": "dist/ana-quispe-portfolio",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "AnaQuispe_port.web:build:production"
+              "browserTarget": "AnaQuispe-portfolio:build:production"
             },
             "development": {
-              "browserTarget": "AnaQuispe_port.web:build:development"
+              "browserTarget": "AnaQuispep-portfolio:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "AnaQuispe_port.web:build"
+            "browserTarget": "AnaQuispe-portfolio:build"
           }
         },
         "test": {
